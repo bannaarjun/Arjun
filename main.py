@@ -77,14 +77,14 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       "𝐇𝐞𝐥𝐥𝐨 ❤️\n\n◆〓◆ ❖ Sanjay Kagra ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /Moni Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
+       "नमस्ते दोस्तों\n\n◆〓◆ ❖ जय श्री krishna ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /Moni Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/StudyMateIndia4") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 🥱✜" ,url=f"https://t.me/StudyMateIndia4") ],
                     [
-                    InlineKeyboardButton("✜ SanjayKagra86🩷 ✜" ,url="https://t.me/SanjayKagra86") ],
+                    InlineKeyboardButton("✜ uchihaclan78 ✜" ,url="https://t.me/+Dhw6oglyO6s2Yjhl") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/SSC_Aspirants_7") ]                               
+                    InlineKeyboardButton("discussion channel🌲" ,url="https://t.me/+Dhw6oglyO6s2Yjhl") ]                               
             ]))
 
 @bot.on_message(filters.command(["stop"]))
