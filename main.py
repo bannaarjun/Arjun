@@ -80,7 +80,7 @@ async def account_login(bot: Client, m: Message):
        "नमस्ते दोस्तों\n\n◆〓◆ ❖ जय श्री krishna ❖ ™ ◆〓◆\n\n❈ I Am A Bot For Download Links From Your **.TXT** File And Then Upload That File Om Telegram So Basically If You Want To Use Me First Send Me ⟰ /Moni Command And Then Follow Few Steps..", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 🥱✜" ,url=f"https://t.me/StudyMateIndia4") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 🥱✜" ,url=f"https://t.me/+Dhw6oglyO6s2Yjhl") ],
                     [
                     InlineKeyboardButton("✜ uchihaclan78 ✜" ,url="https://t.me/+Dhw6oglyO6s2Yjhl") ],
                     [
@@ -178,7 +178,7 @@ async def account_login(bot: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = '@SanjayKagra86🩷'
+        CR = '@arjun🕊️'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -274,8 +274,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} Sanju.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} Moni.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} uchiha.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} uchiha.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                     
                 
                 if "drive" in url:
@@ -331,7 +331,7 @@ async def account_login(bot: Client, m: Message):
                           
                 else:
                     Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n📄 Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By SanjaKagra86🩷 **")
+                    prog = await m.reply_text(f"**Downloading:-**\n\n**📄 Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n **Bot Made By ArjunThakur **")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -347,7 +347,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done Boss🔰")
+    await m.reply_text("🔰Sampann Hua🔰")
 
 
 
